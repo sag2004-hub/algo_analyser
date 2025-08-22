@@ -2109,7 +2109,7 @@ const ArrayStepsPanel = () => {
         // Smooth scroll with custom duration
         const startScrollTop = container.scrollTop;
         const scrollDistance = targetScrollTop - startScrollTop;
-        const duration = 800; // 800ms for slower scroll
+        const duration = 10; // 800ms for slower scroll
         const startTime = performance.now();
         
         const animateScroll = (currentTime) => {
